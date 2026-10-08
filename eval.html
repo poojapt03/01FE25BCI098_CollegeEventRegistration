@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Registration</title>
+
+    
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header>
+    <h1>College Event Registration System</h1>
+</header>
+
+
+<div class="container">
+
+    <h2>Student Login</h2>
+
+    <form id="loginForm">
+
+        <label>Student Name:</label>
+        <input type="text" id="Name">
+
+        <label>Email:</label>
+        <input type="email" id="Email">
+
+        <label>Password:</label>
+        <input type="password" id="password">
+
+        <button type="submit">Login </button>
+
+    </form>
+
+</div>
+
+
+
+<div class="container">
+
+    <h2>College Event Dashboard</h2>
+
+    <div class="events">
+
+        <div class="event">
+            <h3>DevFusion 2026</h3>
+            <p>Technical event for students.</p>
+            <p><b>Date:</b>7th September 2026</p>
+            <p><b>Schedule:</b> 9AM - 4 PM</p>
+            <p><b>Activities:</b> Coding, Quiz, Hackathon</p>
+        </div>
+
+        <div class="event">
+            <h3>Aura 2026</h3>
+            <p>Techno-Cultural Event.</p>
+            <p><b>Date:</b> 12 October 2026</p>
+            <p><b>Schedule:</b> 10AM - 6PM</p>
+            <p><b>Activities:</b> Coding Contest, Dance</p>
+        </div>
+
+        <div class="event">
+            <h3>Oasis 2026</h3>
+            <p>Cultural Event.</p>
+            <p><b>Date:</b> 25 October 2026</p>
+            <p><b>Schedule:</b> 8:00 AM - 4:00 PM</p>
+            <p><b>Activities:</b>Dance, Music, Drama </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="container">
+
+    <h2>Event Registration</h2>
+
+    <form id="registrationForm">
+
+        <label>Student Name:</label>
+        <input type="text" id="Name">
+
+        <label>USN :</label>
+        <input type="text" id="usn">
+
+        <label>Email:</label>
+        <input type="email" id="email">
+
+        <label>Department:</label>
+        <select id="department">
+            <option value="">Select Department</option>
+            <option>CSE</option>
+            <option>ISE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>ME</option>
+        </select>
+
+        <label>Event:</label>
+        <select id="event">
+            <option value="">Select Event</option>
+            <option>DevFusion 2026</option>
+            <option>Aura 2026</option>
+            <option>Oasis 2026</option>
+        </select>
+
+        <label>Event Date:</label>
+        <input type="date" id="eventdate">
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <div id="confirmation"></div>
+
+</div>
+
+
+<script src="java1.js"></script>
+
+</body>
+</html>
