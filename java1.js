@@ -57,5 +57,4 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     document.getElementById("confirmation").innerHTML = confirmation;
 
     document.getElementById("confirmation").style.display = "block";
-
 });
