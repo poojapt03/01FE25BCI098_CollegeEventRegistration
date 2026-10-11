@@ -45,8 +45,6 @@ document.getElementById("registrationForm").addEventListener("submit", function(
         return;
     }
 
-    
-
     let confirmation =
         "<h3>Registration Successful!</h3>" +
         "<p><b>Student Name:</b> " + name + "</p>" +
